@@ -20,6 +20,6 @@ app.use('/os', require('./routes/os'))
 app.use('/service', require('./routes/service'))
 app.use('/storage', require('./routes/storage'))
 app.use('/versions', require('./routes/versions'))
-
+app.use('/memory', require('./routes/memory'))
 
 app.listen(process.env.PORT || 8080)
