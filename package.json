@@ -1,0 +1,26 @@
+{
+  "name": "monitorpoint",
+  "version": "1.0.0",
+  "description": "A monitoring endpoint allowing you to view your server resources via an HTTP REST API. Written in JavaScript and Express.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jakubiakdev",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "express": "^4.18.1",
+    "systeminformation": "^5.11.22"
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakubiakdev/monitorpoint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jakubiakdev/monitorpoint/issues"
+  },
+  "homepage": "https://github.com/jakubiakdev/monitorpoint#readme"
+}
